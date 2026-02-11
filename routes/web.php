@@ -3,7 +3,7 @@
 use Illuminate\Support\Facades\Route;
 
 Route::get('/change-locale/{locale}', function ($locale) {
-    if (in_array($locale, ['en', 'et'])) {
+    if (in_array($locale, ['en', 'et', 'ru'])) {
         session(['locale' => $locale]);
     }
     return redirect()->back();

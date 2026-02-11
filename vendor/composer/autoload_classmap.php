@@ -7,6 +7,13 @@ $baseDir = dirname($vendorDir);
 
 return array(
     'App\\Http\\Controllers\\Controller' => $baseDir . '/app/Http/Controllers/Controller.php',
+    'App\\Http\\Middleware\\SetLocale' => $baseDir . '/app/Http/Middleware/SetLocale.php',
+    'App\\Livewire\\AboutPage' => $baseDir . '/app/Livewire/AboutPage.php',
+    'App\\Livewire\\ContactPage' => $baseDir . '/app/Livewire/ContactPage.php',
+    'App\\Livewire\\HomePage' => $baseDir . '/app/Livewire/HomePage.php',
+    'App\\Livewire\\ProductsPage' => $baseDir . '/app/Livewire/ProductsPage.php',
+    'App\\Livewire\\ServicesPage' => $baseDir . '/app/Livewire/ServicesPage.php',
+    'App\\Livewire\\TeamPage' => $baseDir . '/app/Livewire/TeamPage.php',
     'App\\Models\\User' => $baseDir . '/app/Models/User.php',
     'App\\Providers\\AppServiceProvider' => $baseDir . '/app/Providers/AppServiceProvider.php',
     'Attribute' => $vendorDir . '/symfony/polyfill-php80/Resources/stubs/Attribute.php',
@@ -4985,6 +4992,7 @@ return array(
     'Psy\\Output\\PassthruPager' => $vendorDir . '/psy/psysh/src/Output/PassthruPager.php',
     'Psy\\Output\\ProcOutputPager' => $vendorDir . '/psy/psysh/src/Output/ProcOutputPager.php',
     'Psy\\Output\\ShellOutput' => $vendorDir . '/psy/psysh/src/Output/ShellOutput.php',
+    'Psy\\Output\\ShellOutputAdapter' => $vendorDir . '/psy/psysh/src/Output/ShellOutputAdapter.php',
     'Psy\\Output\\Theme' => $vendorDir . '/psy/psysh/src/Output/Theme.php',
     'Psy\\ParserFactory' => $vendorDir . '/psy/psysh/src/ParserFactory.php',
     'Psy\\ProjectTrust' => $vendorDir . '/psy/psysh/src/ProjectTrust.php',

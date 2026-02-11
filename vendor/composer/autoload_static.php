@@ -538,6 +538,13 @@ class ComposerStaticInitc514d8f7b9fc5970bdd94287905ef584
 
     public static $classMap = array (
         'App\\Http\\Controllers\\Controller' => __DIR__ . '/../..' . '/app/Http/Controllers/Controller.php',
+        'App\\Http\\Middleware\\SetLocale' => __DIR__ . '/../..' . '/app/Http/Middleware/SetLocale.php',
+        'App\\Livewire\\AboutPage' => __DIR__ . '/../..' . '/app/Livewire/AboutPage.php',
+        'App\\Livewire\\ContactPage' => __DIR__ . '/../..' . '/app/Livewire/ContactPage.php',
+        'App\\Livewire\\HomePage' => __DIR__ . '/../..' . '/app/Livewire/HomePage.php',
+        'App\\Livewire\\ProductsPage' => __DIR__ . '/../..' . '/app/Livewire/ProductsPage.php',
+        'App\\Livewire\\ServicesPage' => __DIR__ . '/../..' . '/app/Livewire/ServicesPage.php',
+        'App\\Livewire\\TeamPage' => __DIR__ . '/../..' . '/app/Livewire/TeamPage.php',
         'App\\Models\\User' => __DIR__ . '/../..' . '/app/Models/User.php',
         'App\\Providers\\AppServiceProvider' => __DIR__ . '/../..' . '/app/Providers/AppServiceProvider.php',
         'Attribute' => __DIR__ . '/..' . '/symfony/polyfill-php80/Resources/stubs/Attribute.php',
@@ -5516,6 +5523,7 @@ class ComposerStaticInitc514d8f7b9fc5970bdd94287905ef584
         'Psy\\Output\\PassthruPager' => __DIR__ . '/..' . '/psy/psysh/src/Output/PassthruPager.php',
         'Psy\\Output\\ProcOutputPager' => __DIR__ . '/..' . '/psy/psysh/src/Output/ProcOutputPager.php',
         'Psy\\Output\\ShellOutput' => __DIR__ . '/..' . '/psy/psysh/src/Output/ShellOutput.php',
+        'Psy\\Output\\ShellOutputAdapter' => __DIR__ . '/..' . '/psy/psysh/src/Output/ShellOutputAdapter.php',
         'Psy\\Output\\Theme' => __DIR__ . '/..' . '/psy/psysh/src/Output/Theme.php',
         'Psy\\ParserFactory' => __DIR__ . '/..' . '/psy/psysh/src/ParserFactory.php',
         'Psy\\ProjectTrust' => __DIR__ . '/..' . '/psy/psysh/src/ProjectTrust.php',
