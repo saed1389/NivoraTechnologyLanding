@@ -15,3 +15,6 @@ Route::livewire('/services', 'services-page')->name('services');
 Route::livewire('/products', 'products-page')->name('products');
 Route::livewire('/team', 'team-page')->name('team');
 Route::livewire('/contact', 'contact-page')->name('contact');
+
+require __DIR__.'/auth.php';
+require __DIR__.'/back.php';

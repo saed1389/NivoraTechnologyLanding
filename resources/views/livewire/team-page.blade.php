@@ -11,7 +11,7 @@
         <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
             @foreach([
                 ['name' => 'Sait Ekmekçibaşı', 'role' => __('all.role1'), 'img' => asset('front/images/team/sait-ekmekcibasi.jpg')],
-                ['name' => 'Serai Mübarek', 'role' => __('all.role2'), 'img' => asset('front/images/team/serai-mubarek.jpg')],
+                ['name' => 'Seray Mübarek', 'role' => __('all.role2'), 'img' => asset('front/images/team/serai-mubarek.jpg')],
                 ['name' => 'Barış Sırım', 'role' => __('all.role3'), 'img' => asset('front/images/team/baris-sirim.jpg')],
                 ['name' => 'Elif Ekmekçibaşı', 'role' => __('all.role4'), 'img' => asset('front/images/team/elif-ekmekcibasi.jpg')],
             ] as $member)

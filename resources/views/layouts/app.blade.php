@@ -40,8 +40,7 @@
 <body class="font-sans bg-gray-50 text-gray-900 overflow-x-hidden selection:bg-estonia-blue selection:text-white">
 <div id="custom-cursor" class="custom-cursor"></div>
 <div id="cursor-dot" class="cursor-dot"></div>
-<nav id="navbar"
-     class="fixed w-full top-0 z-40 transition-all duration-500 bg-white/80 backdrop-blur-md border-b border-white/20">
+<nav id="navbar" class="fixed w-full top-0 z-40 transition-all duration-500 bg-white/80 backdrop-blur-md border-b border-white/20">
     <div class="max-w-7xl mx-auto px-6 lg:px-8">
         <div class="flex justify-between items-center h-20">
             <div class="flex items-center">
@@ -167,19 +166,16 @@
                         style="display: none;"
                     >
                         <div class="py-1">
-                            <a href="/change-locale/en"
-                               class="flex items-center gap-3 px-4 py-3 hover:bg-blue-50 hover:text-estonia-blue transition-colors">
-                                <img src="https://flagcdn.com/w40/gb.png" class="w-6 rounded-sm shadow-sm" alt="">
+                            <a href="/change-locale/en" class="flex items-center gap-3 px-4 py-3 hover:bg-blue-50 hover:text-estonia-blue transition-colors">
+                                <img src="{{ asset('front/images/flag/gb.png') }}" class="w-6 rounded-sm shadow-sm" alt="">
                                 <span class="font-medium">English</span>
                             </a>
-                            <a href="/change-locale/et"
-                               class="flex items-center gap-3 px-4 py-3 hover:bg-blue-50 hover:text-estonia-blue transition-colors">
-                                <img src="https://flagcdn.com/w40/ee.png" class="w-6 rounded-sm shadow-sm" alt="">
+                            <a href="/change-locale/et" class="flex items-center gap-3 px-4 py-3 hover:bg-blue-50 hover:text-estonia-blue transition-colors">
+                                <img src="{{ asset('front/images/flag/ee.png') }}" class="w-6 rounded-sm shadow-sm" alt="">
                                 <span class="font-medium">Estonian</span>
                             </a>
-                            <a href="/change-locale/ru"
-                               class="flex items-center gap-3 px-4 py-3 hover:bg-blue-50 hover:text-estonia-blue transition-colors">
-                                <img src="https://flagcdn.com/w40/ru.png" class="w-6 rounded-sm shadow-sm" alt="">
+                            <a href="/change-locale/ru" class="flex items-center gap-3 px-4 py-3 hover:bg-blue-50 hover:text-estonia-blue transition-colors">
+                                <img src="{{ asset('front/images/flag/ru.png') }}" class="w-6 rounded-sm shadow-sm" alt="">
                                 <span class="font-medium">Russian</span>
                             </a>
                         </div>
