@@ -41,7 +41,7 @@ return [
     'why_choose_us' => 'Why Choose Nivora',
     'world_class_engineering' => 'World-Class Engineering',
     'from_estonia' => 'From e-Estonia',
-    'engineering_desc' => 'Based in Tartu, the digital capital of Europe, we bring the Estonian mindset of efficiency, innovation, and digital-first thinking to every project.',
+    'engineering_desc' => 'Based in Tallinn, the digital capital of Europe, we bring the Estonian mindset of efficiency, innovation, and digital-first thinking to every project.',
     'ai_driven' => 'AI-Driven Development',
     'transparent_process' => 'Transparent Process',
     'agile_methodologies' => 'Agile Methodologies',
@@ -148,6 +148,5 @@ return [
     'services_description' => 'Nivora Technology offers expert IT services in Estonia: AI agents, custom software development, mobile apps, and cloud solutions.',
     'services_keywords'    => 'IT services Estonia, AI consulting, software development, mobile app development, cloud solutions, Nivora Technology',
     'team_title'       => 'Our Team – Meet the Experts at Nivora Technology',
-    'team_description' => 'Get to know the team behind Nivora Technology: experienced AI, software, and cloud consultants based in Estonia.',
     'team_keywords'    => 'Nivora team, IT experts Estonia, AI consultants, software developers, cloud architects',
 ];

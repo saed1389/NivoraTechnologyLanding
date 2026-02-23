@@ -41,7 +41,7 @@ return [
     'why_choose_us' => 'Miks Valida Nivora',
     'world_class_engineering' => 'Maailmatasemel Inseneeria',
     'from_estonia' => 'e-Eestist',
-    'engineering_desc' => 'Euroopa digipealinnas Tartus asuvana toome igasse projekti Eesti efektiivsuse, innovatsiooni ja digitaalse mõtteviisi.',
+    'engineering_desc' => 'Euroopa digipealinnas Tallinn asuvana toome igasse projekti Eesti efektiivsuse, innovatsiooni ja digitaalse mõtteviisi.',
     'ai_driven' => 'AI-põhine arendus',
     'transparent_process' => 'Läbipaistev protsess',
     'agile_methodologies' => 'Agiilsed metoodikad',
@@ -148,6 +148,5 @@ return [
     'services_description' => 'Nivora Technology pakub ekspert IT-teenuseid Eestis: AI agendid, kohandatud tarkvara arendus, mobiilirakendused ja pilvelahendused.',
     'services_keywords'    => 'IT teenused Eesti, AI nõustamine, tarkvara arendus, mobiilirakenduste arendus, pilvelahendused, Nivora Technology',
     'team_title'       => 'Meie meeskond – Tutvuge Nivora Technology ekspertidega',
-    'team_description' => 'Tutvuge Nivora Technology meeskonnaga: kogenud AI, tarkvara ja pilve konsultandid Eestis.',
     'team_keywords'    => 'Nivora meeskond, IT eksperdid Eesti, AI konsultandid, tarkvaraarendajad, pilvearhitektid',
 ];

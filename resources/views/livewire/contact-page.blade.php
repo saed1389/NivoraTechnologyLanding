@@ -31,7 +31,7 @@
                         </div>
                         <div>
                             <p class="font-bold text-gray-900">{{ __('all.visit_us') }}</p>
-                            <p class="text-gray-600">Tartu, Estonia</p>
+                            <p class="text-gray-600">Harju maakond, Tallinn, Põhja-Tallinna linnaosa, Telliskivi tn 57, 10412, Tallinn, Estonia</p>
                         </div>
                     </div>
                 </div>

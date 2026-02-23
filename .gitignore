@@ -1,6 +1,7 @@
 *.log
 .DS_Store
 .env
+.htaccess
 .env.backup
 .env.production
 .phpactor.json
@@ -12,6 +13,8 @@
 /.vscode
 /.zed
 /auth.json
+/database
+/database/migrations
 /node_modules
 /public/build
 /public/hot
