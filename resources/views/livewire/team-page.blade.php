@@ -19,9 +19,7 @@
                     <div class="glass-morphism-card rounded-3xl overflow-hidden hover:shadow-xl transition-shadow duration-300">
                         <div class="relative h-80 overflow-hidden">
                             <div class="absolute inset-0 bg-estonia-blue/20 mix-blend-overlay z-10 transition-opacity duration-300 group-hover:opacity-0"></div>
-
-                            <img src="{{ $member['img'] }}" alt="{{ $member['name'] }}" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110">
-
+                            <img loading="lazy" src="{{ $member['img'] }}" alt="{{ $member['name'] }}" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110">
                             <div class="absolute bottom-0 left-0 right-0 p-4 translate-y-full group-hover:translate-y-0 transition-transform duration-300 z-20 flex justify-center gap-4 bg-white/90 backdrop-blur-sm">
                                 <a href="#" class="text-gray-600 hover:text-estonia-blue transition-colors"><i class="fab fa-linkedin text-xl"></i></a>
                                 <a href="#" class="text-gray-600 hover:text-black transition-colors"><i class="fab fa-github text-xl"></i></a>

@@ -111,7 +111,8 @@
             <p class="text-center text-sm font-semibold text-gray-400 uppercase tracking-widest mb-8">{{ __('all.powered_by_tech') }}</p>
             <div class="flex flex-wrap justify-center items-center gap-8 md:gap-16 opacity-60 grayscale hover:grayscale-0 transition-all duration-500">
                 <i class="fab fa-laravel text-4xl hover:text-red-600 transition-colors" title="Laravel"></i>
-                <i class="fas fa-brain text-4xl hover:text-purple-600 transition-colors" title="OpenAI / AI"></i> <i class="fab fa-react text-4xl hover:text-blue-400 transition-colors" title="React"></i>
+                <i class="fas fa-brain text-4xl hover:text-purple-600 transition-colors" title="OpenAI / AI"></i>
+                <i class="fab fa-react text-4xl hover:text-blue-400 transition-colors" title="React"></i>
                 <i class="fab fa-vuejs text-4xl hover:text-green-500 transition-colors" title="Vue.js"></i>
                 <i class="fab fa-aws text-4xl hover:text-orange-500 transition-colors" title="AWS"></i>
                 <i class="fab fa-docker text-4xl hover:text-blue-600 transition-colors" title="Docker"></i>
@@ -206,8 +207,11 @@
                         {{ __('all.engineering_desc') }}
                     </p>
 
+                    @php
+                        $benefits = ['ai_driven', 'transparent_process', 'agile_methodologies', 'gdpr_compliance'];
+                    @endphp
                     <ul class="space-y-4 pt-4">
-                        @foreach(['ai_driven', 'transparent_process', 'agile_methodologies', 'gdpr_compliance'] as $key)
+                        @foreach($benefits as $key)
                             <li class="flex items-center gap-3">
                                 <div class="w-6 h-6 rounded-full bg-estonia-light flex items-center justify-center text-estonia-blue text-xs">
                                     <i class="fas fa-check"></i>

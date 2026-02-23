@@ -37,7 +37,6 @@
                 </div>
             </div>
             <div class="glass-morphism-card rounded-3xl p-8 lg:p-10 relative">
-
                 @if($success)
                     <div class="absolute inset-0 bg-white/95 backdrop-blur-md z-20 rounded-3xl flex flex-col items-center justify-center text-center p-8 animate-slide-up">
                         <div class="w-20 h-20 bg-green-100 rounded-full flex items-center justify-center text-green-500 text-3xl mb-4 shadow-lg">
