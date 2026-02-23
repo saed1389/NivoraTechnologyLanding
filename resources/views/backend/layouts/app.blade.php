@@ -54,5 +54,6 @@
 <script src="{{ asset('back/assets/js/slick/slick.js') }}"></script>
 <script src="{{ asset('back/assets/js/header-slick.js') }}"></script>
 <script src="{{ asset('back/assets/js/script.js') }}"></script>
+@stack('scripts')
 </body>
 </html>

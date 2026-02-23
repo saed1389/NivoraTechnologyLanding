@@ -70,8 +70,8 @@
                             <span>Find Customer</span>
                         </a>
                         <ul class="sidebar-submenu">
-                            <li><a href="#">Customers List</a></li>
-                            <li><a href="#">New Customer</a></li>
+                            <li><a href="{{ route('admin.leads.index') }}">Customers List</a></li>
+                            <li><a href="{{ route('admin.scan.create') }}">New Scan</a></li>
                         </ul>
                     </li>
 
