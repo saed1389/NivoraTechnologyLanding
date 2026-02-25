@@ -13,16 +13,16 @@
                     <div class="inline-block">
                         <div class="glass-morphism px-4 py-2 rounded-full inline-flex items-center gap-2 border border-blue-100/20">
                             <span class="relative flex h-3 w-3">
-                              <span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-estonia-blue opacity-75"></span>
-                              <span class="relative inline-flex rounded-full h-3 w-3 bg-estonia-blue"></span>
+                                <span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-estonia-blue opacity-75"></span>
+                                <span class="relative inline-flex rounded-full h-3 w-3 bg-estonia-blue"></span>
                             </span>
                             <span class="text-sm font-bold tracking-wide text-estonia-blue uppercase">{{ __('all.estonian_innovation') }}</span>
                         </div>
                     </div>
 
-                    <h1 class="font-display font-bold text-5xl sm:text-6xl lg:text-7xl leading-[1.1] tracking-tight text-gray-900">
+                    <h1 class="hero-font font-bold text-5xl sm:text-6xl lg:text-7xl leading-[1.1] tracking-tight text-gray-900">
                         {{ __('all.transforming') }} <br>
-                        <span class="text-transparent bg-clip-text bg-gradient-to-r from-estonia-blue to-blue-400">
+                        <span class="hero-font text-transparent bg-clip-text bg-gradient-to-r from-estonia-blue to-blue-400">
                             {{ __('all.digital_future') }}
                         </span>
                     </h1>

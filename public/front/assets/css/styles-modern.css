@@ -36,6 +36,14 @@
     box-sizing: border-box;
 }
 
+@font-face {
+    font-family: 'Aino';
+    src: url('../fonts/Aino-Headline.otf') format('opentype');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
 html {
     scroll-behavior: smooth;
     overflow-x: hidden;
@@ -62,6 +70,10 @@ body {
     mix-blend-mode: difference;
 }
 
+.hero-font {
+    font-family: 'Aino', sans-serif;
+    line-height: 1.6;
+}
 .cursor-dot {
     position: fixed;
     width: 8px;
