@@ -19,16 +19,16 @@ class CityScanController extends Controller
     {
         $request->validate([
             'city' => 'required|string|max:100',
-            'country_code' => 'required|string|size:2',
-            'categories' => 'nullable|array',
+            'country_code' => 'required|string|size:2|in:EE',
+            'categories' => 'nullable',
         ]);
         $city = City::updateOrCreate(
-            ['name' => $request->city, 'country_code' => $request->country_code],
+            ['name' => $request->city, 'country_code' => 'EE'],
             ['is_active' => true]
         );
         $payload = [
             'city' => $request->city,
-            'country' => $request->country_code,
+            'country' => 'EE',
         ];
         if ($request->has('categories')) {
             $payload['categories'] = $request->categories;

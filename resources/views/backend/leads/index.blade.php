@@ -1,5 +1,4 @@
 @extends('backend.layouts.app')
-
 @section('content')
     <div class="page-body">
         <div class="container-fluid">
@@ -24,7 +23,6 @@
                 </div>
             </div>
         </div>
-
         <div class="container-fluid">
             <div class="row">
                 <div class="col-md-12">
@@ -44,9 +42,7 @@
                                 </div>
                             </div>
                         </div>
-
                         <div class="card-body">
-                            <!-- Filter Form (AJAX) -->
                             <form id="filter-form" method="GET" action="{{ route('admin.leads.index') }}" class="mb-4">
                                 <div class="row g-3">
                                     <div class="col-md-2">
@@ -83,8 +79,6 @@
                                     </div>
                                 </div>
                             </form>
-
-                            <!-- Leads Table (will be updated via AJAX) -->
                             <div id="leads-table-container">
                                 @include('backend.leads._table', ['leads' => $leads])
                             </div>
@@ -94,8 +88,6 @@
             </div>
         </div>
     </div>
-
-    <!-- Modal for lead details -->
     <div class="modal fade" id="leadDetailModal" tabindex="-1" aria-labelledby="leadDetailModalLabel" aria-hidden="true">
         <div class="modal-dialog modal-lg">
             <div class="modal-content">
@@ -113,7 +105,6 @@
         </div>
     </div>
 @endsection
-
 @push('scripts')
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
     <script>

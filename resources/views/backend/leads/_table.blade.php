@@ -72,5 +72,5 @@
 
 <!-- Pagination -->
 <div class="mt-3">
-    {{ $leads->withQueryString()->links() }}
+    {{ $leads->withQueryString()->links('pagination::bootstrap-5') }}
 </div>
